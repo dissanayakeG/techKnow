@@ -1,0 +1,52 @@
+.dashboard-body {
+    background-color: black;
+    min-height: calc(100vh - 56px);
+}
+
+.main-heading {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.post {
+    height: auto;
+    width: 600px;
+    background-color: aquamarine;
+    margin-bottom: 2px;
+    border-radius: 2px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10PX;
+}
+
+.topic {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.dropdown-menu {
+    display: block;
+}
+
+.post-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-section {
+    word-break: break-all;
+}
+
+.react-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
